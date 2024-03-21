@@ -1,0 +1,69 @@
+.container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  padding: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-container {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 40px;
+  width: 500px;
+  padding-right: 60px;
+}
+@media screen and (max-width: 768px) {
+  .feedback-container {
+    width: 300px;
+  }
+}
+.review-qas {
+  min-width: 100px;
+  color: #0f172a;
+  font-size: 26px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.list-container {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  text-align: center;
+}
+.button {
+  border: none;
+  background-color: transparent;
+  margin-right: 34px;
+  margin-top: 20px;
+}
+.emoji-image {
+  width: 60px;
+  height: 60px;
+}
+.emoji-name {
+  color: #1e293b;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.list-loveEmoji {
+  text-align: center;
+  list-style-type: none;
+}
+.img {
+  width: 80px;
+  height: 80px;
+}
+.wish-thankyou {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 26px;
+}
+.feedback-response {
+  color: #1e293b;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
